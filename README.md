@@ -1,2 +1,0 @@
-# AI
-yuno app ai
