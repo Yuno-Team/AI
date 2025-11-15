@@ -1,5 +1,30 @@
 # AI/PRODUCTION 폴더 가이드
 
+## ⚡ 빠른 시작
+
+### 1. 환경 설정
+```bash
+# .env 파일 생성 (최초 1회)
+cp .env.example .env
+# .env 파일을 열어서 GEMINI_API_KEY를 실제 키로 변경
+
+# 패키지 설치
+pip install -r requirements.txt
+```
+
+### 2. 서버 실행
+```bash
+python main.py
+# 서버: http://localhost:8000
+```
+
+### 3. Gemini API 키 발급
+1. https://aistudio.google.com/apikey 접속
+2. "Create API Key" 클릭
+3. 발급받은 키를 `.env` 파일에 입력
+
+---
+
 ## 📁 파일 구조 및 역할
 
 ### 🤖 AI 추천 모델 (3개) - 핵심
